@@ -1,7 +1,7 @@
 
 import { signIn } from "@/auth"
  
-export default function SignIn() {
+export default function SignInGithub() {
   return (
     <form
       action={async () => {
@@ -10,9 +10,9 @@ export default function SignIn() {
       }}
     >
       <button
-        className="px-4 py-2 text-white bg-indigo-600 rounded-lg duration-150 hover:bg-indigo-700 active:shadow-lg"
+        className="px-4 py-2 text-white bg-gray-800 rounded-lg duration-150 hover:bg-gray-500 active:shadow-lg"
         type="submit"
-      >Signin with GitHub</button>
+      >Sign in with GitHub</button>
     </form>
   )
 } 
